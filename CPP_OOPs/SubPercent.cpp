@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+//#include <conio.h>
+using namespace std; //not use in turbo
 class Percent
 {
 public:
@@ -22,10 +23,12 @@ public:
     }
 };
 
-int main()
+int main() //use void main in turbo
 {
+    //clrscr();
     Percent p1;
     p1.getdata();
     p1.showPercent();
+    //getch();
     return 0;
 }
