@@ -28,7 +28,7 @@ Queues, Linked Lists.
 
 ## 🛠️ Technical Stack
 - **Language:** C++ (Standard 17)
-- **Environment:** Termux (Linux on Android)
+- **Environment:** Termux (Linux on Android) at home and Windows during college
 - **Version Control:** Git & GitHub
 - **Academic Year:** 2025-26 (Semester 2)
 
