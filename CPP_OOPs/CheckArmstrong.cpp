@@ -23,22 +23,15 @@ void Armstrong::showArmstrong(){
         int pow=1;
         for(int j=0;j<i;j++){
             pow=pow*a;
-        }    
+        }
         sum+=pow;
         temp/=10;
     }
     if(sum==n){
-<<<<<<< HEAD
         cout << n << " is a Armstrong." << endl;
     }
     else{
         cout << n << " is not a Armstrong." << endl;
-=======
-    cout << "This number is Armstrong." << endl;
-    }
-    else{
-    cout << "This number is not Armstrong." << endl;
->>>>>>> 4d8f5864337628e23472f424513b00769e3e96a9
     }
 }
 int main(){ //Use void main in Turbo
@@ -48,8 +41,5 @@ int main(){ //Use void main in Turbo
     a1.showArmstrong();
     //getch();
     return 0;
-<<<<<<< HEAD
-}    
-=======
-}    
->>>>>>> 4d8f5864337628e23472f424513b00769e3e96a9
+}
+
