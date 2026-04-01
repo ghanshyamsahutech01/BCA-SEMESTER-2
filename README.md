@@ -18,7 +18,7 @@ Concepts of OOPs implemented using C++:
 - **Encapsulation & Abstraction**
 - **File Handling**
 
-### 2. 🏗️ [Data Structures](./Data_Structures/)
+### 2. 🏗️ [Data Structures](./Data_Structure/)
 Core DSA concepts for problem-solving:
 - **Linear Data Structures:** Arrays, Stacks, 
 Queues, Linked Lists.
