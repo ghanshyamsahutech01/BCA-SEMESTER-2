@@ -5,7 +5,7 @@ class Factorial
 {
     public:
     int num, i;
-    long long fact=1;
+    long long fact;
     void getdata();
     void showFactorial();
 };
@@ -14,6 +14,7 @@ void Factorial::getdata(){
     cin >> num;
 }
 void Factorial::showFactorial(){
+    fact=1;
     for(i=num;i>0;i--){
         fact*=i;
     }    
