@@ -1,5 +1,6 @@
 #include <stdio.h>
 //#include <stdlib.h> //Use for clear terminal
+/*This is a simple calculator program created by the user to perform calculations easily.*/
 int main() {
     float a, b;
     int flag=1;
@@ -19,9 +20,9 @@ int main() {
             break;
             case '*': a=a*b;
             break;
-            case '/': 
+            case '/':
                 if(b!=0)
-                    a=a/b; 
+                    a=a/b;
                 else printf("Error: Division by zero\n");
                 break;
             default: flag = 0;
