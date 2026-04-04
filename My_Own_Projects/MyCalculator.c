@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h> //Use for clear terminal
 int main() {
     float a, b;
     int flag=1;
@@ -27,7 +27,7 @@ int main() {
             default: flag = 0;
         }
         if(flag){
-            //system("clear"); //If I want terminal clear so use this else no
+            //system("clear"); //Use, If I want clear terminal
             printf("||-------------------------------||\n");
             printf("||Enter for Next (like Result+5).||\n");
             printf("||Result: %.2f", a);
