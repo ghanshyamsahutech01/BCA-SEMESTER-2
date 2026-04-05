@@ -5,10 +5,10 @@ class Armstrong
 {
     public:
     int n, i, temp, sum=0;
-    void getdata();
+    void getData();
     void showArmstrong();
 };
-void Armstrong::getdata(){
+void Armstrong::getData(){
     cout << "Enter any number: ";
     cin >> n;
 }
@@ -37,7 +37,7 @@ void Armstrong::showArmstrong(){
 int main(){ //Use void main in Turbo
     //clrscr();
     Armstrong a1;
-    a1.getdata();
+    a1.getData();
     a1.showArmstrong();
     //getch();
     return 0;

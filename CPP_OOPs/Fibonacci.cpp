@@ -5,10 +5,10 @@ class Fibonacci
 {
     public:
     int num, i, c, a, b;
-    void getdata();
+    void getData();
     void showFibonacci();
 };
-void Fibonacci::getdata(){
+void Fibonacci::getData(){
     cout << "Enter any positive number: ";
     cin >> num;
 }
@@ -36,7 +36,7 @@ void Fibonacci::showFibonacci(){
 int main(){ //Use void main in Turbo
     //clrscr();
     Fibonacci f1;
-    f1.getdata();
+    f1.getData();
     f1.showFibonacci();
     //getch();
     return 0;

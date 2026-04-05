@@ -6,10 +6,10 @@ class Factorial
     public:
     int num, i;
     long long fact;
-    void getdata();
+    void getData();
     void showFactorial();
 };
-void Factorial::getdata(){
+void Factorial::getData(){
     cout << "Enter any number: ";
     cin >> num;
 }
@@ -23,7 +23,7 @@ void Factorial::showFactorial(){
 int main(){ //Use void main in Turbo
     //clrscr();
     Factorial f1;
-    f1.getdata();
+    f1.getData();
     f1.showFactorial();
     //getch();
     return 0;

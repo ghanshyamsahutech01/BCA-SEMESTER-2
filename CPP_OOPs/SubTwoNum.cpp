@@ -5,7 +5,7 @@ class Abc
 {
 public:
     int a,b;
-    void getdata(){
+    void getData(){
         cout << "Enter first number: ";
         cin >> a;
         cout << "Enter second number: ";
@@ -20,7 +20,7 @@ int main() //use void main() in turbo
 {
     //clrscr();
     Abc a1;
-    a1.getdata();
+    a1.getData();
     a1.showSubtract();
     //getch();
     return 0;

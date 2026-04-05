@@ -5,10 +5,10 @@ class NoOfDigit
 {
     public:
     int n, i;
-    void getdata();
+    void getData();
     void showNoOfDigit();
 };
-void NoOfDigit::getdata(){
+void NoOfDigit::getData(){
     cout << "Enter any number: ";
     cin >> n;
 }
@@ -23,7 +23,7 @@ void NoOfDigit::showNoOfDigit(){
 int main(){ //Use void main in Turbo
     //clrscr();
     NoOfDigit n1;
-    n1.getdata();
+    n1.getData();
     n1.showNoOfDigit();
     //getch();
     return 0;

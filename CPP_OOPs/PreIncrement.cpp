@@ -5,7 +5,7 @@ class Increment
 {
      public:
      int n;
-     void getdata(){
+     void getData(){
          cout << "Enter any numbers: ";
          cin >> n;
      }
@@ -17,7 +17,7 @@ int main() //use void main in turbo
 {
     //clrscr();
     Increment p1;
-    p1.getdata();
+    p1.getData();
     p1.showPreIncrement();
     //getch();
     return 0;

@@ -5,7 +5,7 @@ class CheckNumber
 {
      public:
      int n;
-     void getdata(){
+     void getData(){
          cout << "Enter any numbers: ";
          cin >> n;
      }
@@ -27,7 +27,7 @@ int main() //use void main in turbo
 {
     //clrscr();
     CheckNumber c1;
-    c1.getdata();
+    c1.getData();
     c1.showNumberNature();
     //getch();
     return 0;

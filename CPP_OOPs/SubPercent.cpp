@@ -5,7 +5,7 @@ class Percent
 {
 public:
     float sub1,sub2,sub3,sub4,total,percent;
-    void getdata(){
+    void getData(){
 
         cout << "Enter marks of English: ";
         cin >> sub1;
@@ -27,7 +27,7 @@ int main() //use void main in turbo
 {
     //clrscr();
     Percent p1;
-    p1.getdata();
+    p1.getData();
     p1.showPercent();
     //getch();
     return 0;

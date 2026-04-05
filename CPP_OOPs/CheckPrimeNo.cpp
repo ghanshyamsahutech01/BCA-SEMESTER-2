@@ -5,10 +5,10 @@ class PrimeOrNot
 {
     int num, isPrime;
     public:
-    void getdata();
+    void getData();
     void showPrimeOrNot();
 };
-void PrimeOrNot::getdata(){
+void PrimeOrNot::getData(){
     cout << "Enter any number: ";
     cin >> num;
 }
@@ -38,7 +38,7 @@ void PrimeOrNot::showPrimeOrNot(){
 int main(){ //Use void main in Turbo
     //clrscr();
     PrimeOrNot p1;
-    p1.getdata();
+    p1.getData();
     p1.showPrimeOrNot();
     //getch();
     return 0;

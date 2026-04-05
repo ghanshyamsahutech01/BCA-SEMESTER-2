@@ -5,7 +5,7 @@ class Square
 {
      public:
      int n;
-     void getdata(){
+     void getData(){
          cout << "Enter any number: ";
          cin >> n;
      }
@@ -17,7 +17,7 @@ int main()
 {
     //clrscr();
     Square s1;
-    s1.getdata();
+    s1.getData();
     s1.showSquare();
     //getch();
     return 0;

@@ -5,7 +5,7 @@ class CircleArea
 {
      public:
      float radius,area;
-     void getdata(){
+     void getData(){
          cout << "Enter Radius of Circle: ";
          cin >> radius;
      }
@@ -18,7 +18,7 @@ int main()
 {
     //clrscr();
     CircleArea c1;
-    c1.getdata();
+    c1.getData();
     c1.showCircleArea();
     //getch();
     return 0;

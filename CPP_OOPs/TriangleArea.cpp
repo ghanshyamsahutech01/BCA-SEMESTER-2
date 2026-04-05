@@ -5,7 +5,7 @@ class TriangleArea
 {
      public:
      float base,height,area;
-     void getdata(){
+     void getData(){
          cout << "Enter base of triangle: ";
          cin >> base;
          cout << "Enter height of triangle: ";
@@ -20,7 +20,7 @@ int main()
 {
     //clrscr();
     TriangleArea t1;
-    t1.getdata();
+    t1.getData();
     t1.showTriangleArea();
     //getch();
     return 0;

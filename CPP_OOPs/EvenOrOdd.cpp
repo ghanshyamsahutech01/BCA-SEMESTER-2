@@ -5,7 +5,7 @@ class EvenOrOdd
 {
      public:
      int n;
-     void getdata(){
+     void getData(){
          cout << "Enter any numbers: ";
          cin >> n;
      }
@@ -20,7 +20,7 @@ int main() //use void main in turbo
 {
     //clrscr();
     EvenOrOdd e1;
-    e1.getdata();
+    e1.getData();
     e1.showEvenOrOdd();
     //getch();
     return 0;

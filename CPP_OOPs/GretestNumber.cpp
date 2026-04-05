@@ -5,7 +5,7 @@ class Gretest
 {
      public:
      int a,b,c;
-     void getdata(){
+     void getData(){
          cout << "Enter three numbers: ";
          cin >> a >> b >> c;
      }
@@ -32,7 +32,7 @@ int main()
 {
     //clrscr();
     Gretest g1;
-    g1.getdata();
+    g1.getData();
     g1.showGretest();
     //getch();
     return 0;

@@ -6,10 +6,10 @@ class Palindrome
     public:
     char name[25];
     int i, j, hl, flag;
-    void getdata();
+    void getData();
     void showPalindrome();
 };
-void Palindrome::getdata(){
+void Palindrome::getData(){
     cout << "Enter any name: ";
     cin >> name;
 }
@@ -32,7 +32,7 @@ void Palindrome::showPalindrome(){
 int main(){ //Use void main in Turbo
     //clrscr();
     Palindrome p1;
-    p1.getdata();
+    p1.getData();
     p1.showPalindrome();
     //getch();
     return 0;
