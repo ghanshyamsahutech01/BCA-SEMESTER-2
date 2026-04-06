@@ -14,13 +14,14 @@ void Palindrome::getData(){
     cin >> name;
 }
 void Palindrome::showPalindrome(){
+    flag=1;
     for(i=0;name[i]!='\0';i++){}
     hl=i/2;
     for(j=0;j<hl;j++){
         if(name[j]!=name[i-1-j]){
             flag=0;
             break;
-        }    
+        }
     }
     if(flag){
     cout << "Name is Palindrome." << endl;
