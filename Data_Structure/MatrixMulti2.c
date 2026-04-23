@@ -24,7 +24,7 @@ int main(){
 	    }
 	}
 	printf("\n");
-	printf("Multipication of A*B:\n");
+	printf("Multiplication of A*B:\n");
 	for(int i=0;i<m;i++){
 	    for(int j=0;j<q;j++){
 		int sum = 0;
