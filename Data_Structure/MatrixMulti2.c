@@ -3,9 +3,9 @@
 int main(){
     int a[10][10], b[10][10], m, n, p, q;
     //clrscr();
-    printf("Enter row and column of first Matrix = ");
+    printf("Enter row and column of Matrix A = ");
     scanf("%d %d",&m,&n);
-    printf("Enter row and column of second Matrix = ");
+    printf("Enter row and column of Matrix B = ");
     scanf("%d %d",&p,&q);
     if(n==p){
 	printf("Entry for Matrix A:\n");
