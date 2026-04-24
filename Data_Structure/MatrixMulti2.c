@@ -8,36 +8,36 @@ int main(){
     printf("Enter row and column of Matrix B = ");
     scanf("%d %d",&p,&q);
     if(n==p){
-	printf("Entry for Matrix A:\n");
-	for(int i=0;i<m;i++){
-	    printf("Enter %d row = ",i+1);
-	    for(int j=0;j<n;j++){
-		scanf("%d",&a[i][j]);
-	    }
-	}
-	printf("\n");
-	printf("Entry for Matrix B:\n");
-	for(int i=0;i<p;i++){
-	    printf("Enter %d row = ",i+1);
-	    for(int j=0;j<q;j++){
-		scanf("%d",&b[i][j]);
-	    }
-	}
-	printf("\n");
-	printf("Multiplication of A*B:\n");
-	for(int i=0;i<m;i++){
-	    for(int j=0;j<q;j++){
-		int sum = 0;
-		for(int k=0;k<p;k++){
-		    sum = sum + a[i][k] * b[k][j];
-		}
-		printf("%d ",sum);
-	    }
-	    printf("\n");
-	}
+    	printf("Entry for Matrix A:\n");
+    	for(int i=0;i<m;i++){
+	        printf("Enter %d row = ",i+1);
+    	    for(int j=0;j<n;j++){
+    		    scanf("%d",&a[i][j]);
+    	    }
+    	}
+    	printf("\n");
+    	printf("Entry for Matrix B:\n");
+    	for(int i=0;i<p;i++){
+    	    printf("Enter %d row = ",i+1);
+    	    for(int j=0;j<q;j++){
+    		    scanf("%d",&b[i][j]);
+    	    }
+    	}
+    	printf("\n");
+    	printf("Multiplication of A*B:\n");
+    	for(int i=0;i<m;i++){
+    	    for(int j=0;j<q;j++){
+        		int sum = 0;
+        		for(int k=0;k<p;k++){
+		            sum = sum + a[i][k] * b[k][j];
+        		}
+        		printf("%d ",sum);
+	        }
+    	    printf("\n");
+    	}
     }
     else{
-	printf("Error! Please enter value n=p");
+    	printf("Error! Please enter value n=p");
     }
     //getch();
     return 0;
