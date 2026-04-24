@@ -8,7 +8,7 @@ int main(){
     printf("Enter row and column of Matrix B = ");
     scanf("%d %d",&p,&q);
     if(n==p){
-    	printf("Entry for Matrix A:\n");
+    	printf("Entery for Matrix A:\n");
     	for(int i=0;i<m;i++){
 	        printf("Enter %d row = ",i+1);
     	    for(int j=0;j<n;j++){
@@ -16,7 +16,7 @@ int main(){
     	    }
     	}
     	printf("\n");
-    	printf("Entry for Matrix B:\n");
+    	printf("Entery for Matrix B:\n");
     	for(int i=0;i<p;i++){
     	    printf("Enter %d row = ",i+1);
     	    for(int j=0;j<q;j++){
