@@ -4,6 +4,7 @@ int main(){
     int m,n;
     int i, j;
     int a[10][10];
+    //clrscr();
     printf("Enter row and column for Matrix = ");
     scanf("%d%d",&m,&n);
     printf("\nEntery for Matrix:\n");
@@ -29,4 +30,4 @@ int main(){
     }
     //getch();
     return 0;
-}    
+}
