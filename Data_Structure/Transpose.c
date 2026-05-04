@@ -22,9 +22,9 @@ int main(){
         printf("\n");
     }
     printf("\nTranspose Matrix:\n");
-    for(j=0;j<n;j++){
-        for(i=0;i<m;i++){
-            printf("%d ",a[i][j]);
+    for(i=0;i<n;i++){
+        for(j=0;j<m;j++){
+            printf("%d ",a[j][i]);
         }
         printf("\n");
     }
