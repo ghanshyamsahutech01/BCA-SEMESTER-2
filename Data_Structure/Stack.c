@@ -21,18 +21,18 @@ void pop(){
     	printf("%d delete from stack\n",stack[top]);
     	top--;
     }
-}  
+}
 void display(){
-    if(top==-1){ 
+    if(top==-1){
         printf("Stack is Empty\n");
     }
     else{
-        printf("Stack elements are: ");
-        for(int i=0;i<=top;i++){
+        printf("Stack elements are:\n");
+        for(int i=top;i>=0;i--){
             printf("%d\n",stack[i]);
         }
     }
-}            
+}
  int main(){
      int choice, value;
      //clrscr();
@@ -52,7 +52,7 @@ void display(){
                      break;
              case 2: pop();
                      printf("\n");
-                     break; 
+                     break;
              case 3: display();
                      printf("\n");
                      break;
@@ -63,4 +63,4 @@ void display(){
      } while(choice!=4);
      //getch();
      return 0;
- }    
+ }
