@@ -6,23 +6,23 @@ int rear = -1;
 int queue[MAX];
 void enqueue(int value){
     if(rear == MAX - 1){
-	printf("Queue is full\n");
+    	printf("Queue is full\n");
     }
     else{
-	if(front == -1) front = 0;
-	rear++;
-	queue[rear] = value;
-	printf("%d inserted into index %d\n",queue[rear],rear);
+    	if(front == -1) front = 0;
+    	rear++;
+    	queue[rear] = value;
+    	printf("%d inserted into index %d\n",queue[rear],rear);
     }
 }
 
 void dequeue(){
     if(front == -1 || front > rear){
-       printf("Queue is Underflow\n");
+        printf("Queue is Underflow\n");
     }
     else{
-	printf("%d deleted from index %d\n",queue[front],front);
-	front++;
+    	printf("%d deleted from index %d\n",queue[front],front);
+    	front++;
     }
 }
 
