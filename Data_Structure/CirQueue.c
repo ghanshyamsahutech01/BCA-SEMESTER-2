@@ -1,6 +1,6 @@
 #include<stdio.h>
 //#include<conio.h>
-#define MAX 3
+#define MAX 5
 int front = -1;
 int rear = -1;
 int queue[MAX];
