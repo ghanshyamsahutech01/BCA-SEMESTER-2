@@ -6,7 +6,7 @@ int rear = -1;
 int queue[MAX];
 void enqueue(int value){
     if((rear+1)%MAX==front){
-	    printf("Queue is full\n");
+	    printf("Queue is Overflow\n");
     }
     else{
 	    if(front==-1) front = 0;
