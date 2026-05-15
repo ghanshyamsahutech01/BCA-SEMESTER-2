@@ -46,7 +46,7 @@ void display(){
         printf("%d\n",queue[rear]);
     }
 }
-void main(){
+int main(){
     int value;
     int choice;
     //clrscr();
@@ -76,4 +76,5 @@ void main(){
 	    }
     } while(choice!=4);
     //getch();
+    return 0;
 }
