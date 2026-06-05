@@ -43,7 +43,7 @@ efficient code.
 
 ---
 > *"Ghanshyam Sahu is a technical boy and he will 
-never leave his technology."*
+never leave his technicality."*
 
 ---
 *Connect with me on [GitHub](https://github.com/ghanshyamsahutech01)*
