@@ -3,23 +3,26 @@
 using namespace std;
 class Number
 {
-    int n;
+    int a, b;
     public:
-    void getData(int x){
-        n = x;
+    void getData(int x, int y){
+        a = x;
+        b = y;
     }
     void operator -- (){
-        --n;
+        --a;
+        --b;
     }
     void display(){
-        cout << "Value of n = " << n << endl;
+        cout << "Value of a = " << a << endl;
+        cout << "Value of b = " << b << endl;
     }
 };    
 int main()
 {
     //clrscr();
     Number n1;
-    n1.getData(8);
+    n1.getData(8,6);
     --n1;
     n1.display();
     //getch();
